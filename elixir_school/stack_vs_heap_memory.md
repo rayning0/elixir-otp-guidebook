@@ -16,6 +16,8 @@ Memory may be divided into these parts:
 
 4. `Heap segment`: flexible area to store large data structures and objects with dynamic lifetimes. Heap memory may be allocated or deallocated during program execution.
 
+![4 Memory Segments](https://github.com/rayning0/elixir-otp-guidebook/blob/master/elixir_school/memory-segments-heap-stack.png)
+
 Global variables declared outside any function live in the global segment. Machine code or instructions for the program's functions and methods are stored in the code segment.
 
 - Python example:

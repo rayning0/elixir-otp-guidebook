@@ -28,11 +28,15 @@ Difference between concurrency + parallelism:
 - A and B may be 2 programs running on the same computer, sharing a common filesystem with files they can read and write.
 - A and B may be 2 threads in the same Java program (we’ll explain what a thread is below), sharing the same Java objects.
 
+![Shared Memory](https://github.com/rayning0/elixir-otp-guidebook/blob/master/elixir_school/shared-memory.png)
+
 `Message Passing` ([Elixir/Erlang way](https://elixirschool.com/en/lessons/intermediate/concurrency#message-passing-1)): concurrent modules interact by sending messages to each other through a communication channel. Modules send off messages, and incoming messages to each module are queued up for handling. Examples:
 - A and B may be 2 computers in a network communicating by network connections.
 - A and B may be a web browser and a web server. A opens connection to B, asks for a web page, then B sends web page data back to A.
 - A and B may be an instant messaging client and server.
 - A and B may be 2 programs running on same computer whose input and output have been connected by a pipe, like `ls | grep` typed into a command prompt.
+
+![Message Passing](https://github.com/rayning0/elixir-otp-guidebook/blob/master/elixir_school/message-passing.png)
 
 **2 Types of Concurrent Modules**
 
@@ -61,6 +65,8 @@ A thread needs special effort to get “thread-local” memory that’s private 
 ____
 
 **Q: How can I have many concurrent threads with only 1 or 2 processors in my computer?** When there are more threads than processors, concurrency is simulated by `time slicing`: the processor switches between threads. The figure on the right shows how three threads T1, T2, and T3 might be time-sliced on a machine that has only two actual processors. In the figure, time proceeds downward, so at first one processor is running thread T1 and the other is running thread T2, and then the second processor switches to run thread T3. Thread T2 simply pauses, until its next time slice on the same processor or another processor.
+
+![Time Slicing](https://github.com/rayning0/elixir-otp-guidebook/blob/master/elixir_school/time-slicing.png)
 
 On most systems, time slicing happens unpredictably and nondeterministically, meaning that a thread may be paused or resumed at any time.
 
@@ -95,6 +101,8 @@ Processes are better when strong isolation is required between tasks, like in in
 ____
 
 **[Shared Memory Example (MIT course)](https://web.mit.edu/6.005/www/fa14/classes/17-concurrency/#shared_memory_example):**
+
+![Shared Memory Bank](https://github.com/rayning0/elixir-otp-guidebook/blob/master/elixir_school/shared-memory-bank.png)
 
 Imagine a bank has cash machines that use a `shared memory` model, so all cash machines can read/write the same account objects in memory.
 
@@ -240,6 +248,8 @@ private void computeAnswer() {
 ```
 
 **[Message Passing Example (MIT course), used by Elixir](https://web.mit.edu/6.005/www/fa14/classes/17-concurrency/#message_passing_example):**
+
+![Message Passing Bank](https://github.com/rayning0/elixir-otp-guidebook/blob/master/elixir_school/message-passing-bank.png)
 
 How about a `message passing` approach to our bank account example?
 
