@@ -26,7 +26,7 @@ Q: How is Elixir different from Erlang?
     - Has built-in test framework `ExUnit`
     - Has built-in documentation system. Type `h` before Elixir function, object, etc. you want more info on.
 
-![Elixir Help Documentation](https://github.com/rayning0/elixir-otp-guidebook/blob/master/ch1/img/elixir-documentation.png)
+![Elixir Help Documentation](img/elixir-documentation.png)
 
 ![ExUnit error messages](img/ExUnit-error_messages.png)
 
