@@ -1,3 +1,5 @@
+## Elixir Overview
+
 - **Erlang**: programming language created 1986 by Swedish telecommunications company Ericsson that excels in building soft `real-time, distributed, and concurrent` systems. Its original use case was to program Ericsson’s telephone switches. (Telephone switches are basically machines that connect calls between callers.)
 
   - These switches had to be `concurrent, reliable, and scalable`. They had to **handle multiple calls at the same time, and they also had to be extremely reliable. No one wants their call to be dropped halfway through. Additionally, a dropped call (due to a software or hardware fault) shouldn’t affect the rest of the calls on the switch. The switches had to be massively scalable and work with a distributed network of switches.** These production requirements shaped Erlang into what it is today; they’re the exact requirements we have today with multicore and web-scale programming.
