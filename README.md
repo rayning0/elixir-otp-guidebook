@@ -8,9 +8,9 @@ I urge you buy [liveBook version](https://livebook.manning.com/book/the-little-e
 - [Chp 2.3-2.8](ch2/2.3_data_types.md): Data Types, Guards, Pattern Matching, Lists, Pipe operator, Erlang interoperability
 
 ## Elixir School
-- [Computer Memory](elixir_school/memory_stack_vs_heap.md): Stack vs. Heap
-- MIT course: [Concurrency: Process vs. Thread](elixir_school/mit_concurrency_process_thread_race-conditions.md). Shared memory vs. message passing. Race Conditions.
-- YouTube: [Concurrency Primitives, Processes, and Message Passing - Part 8](elixir_school/yt_concurrency_primitives_processes_message_passing.md)
-- Concurrency: Processes, Agents, Tasks
+- [Computer Memory](elixir_school/memory-stack_vs_heap.md): Stack vs. Heap
+- MIT course: [Concurrency: Process vs. Thread](elixir_school/mit_concurrency-process_thread_race-conditions.md). Shared memory vs. message passing. Race Conditions.
+- YouTube: [Concurrency Primitives, Processes, and Message Passing - Part 8](elixir_school/yt_concurrency-primitives_processes_message-passing.md)
+- [Concurrency: Processes, Agents, Tasks](elixir_school/concurrency-processes_agents_tasks.md)
 - OTP Concurrency: Genserver
 - OTP Supervisors
