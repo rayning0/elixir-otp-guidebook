@@ -4,8 +4,9 @@ I urge you buy [liveBook version](https://livebook.manning.com/book/the-little-e
 
 ## The Little Elixir & OTP Guidebook
 - [Chp 1](ch1/what_is_elixir.md): Elixir vs. Erlang. What's Elixir good/bad for? Preview of OTP behaviors.
-- [Chp 2.2](ch2/2.2_first_steps.md): First Steps
-- [Chp 2.3-2.8](ch2/2.3_data_types.md): Data Types, Guards, Pattern Matching, Lists, Pipe operator, Erlang interoperability
+- [Chp 2.2](ch2/2.2_first-steps.md): First Steps
+- [Chp 2.3-2.4](ch2/2.3-2.4_data-types_guards.md): Data Types, Guards
+- [Chp 2.5](ch2/2.5_pattern-matching.md): Pattern Matching
 
 ## Elixir School
 - [Computer Memory](elixir_school/memory-stack_vs_heap.md): Stack vs. Heap
