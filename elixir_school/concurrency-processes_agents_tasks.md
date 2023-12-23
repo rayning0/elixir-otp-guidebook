@@ -1,4 +1,4 @@
-[Elixir School, Concurrency](https://elixirschool.com/en/lessons/intermediate/concurrency):
+[Elixir School (Concurrency)](https://elixirschool.com/en/lessons/intermediate/concurrency):
 
 Elixir concurrency follows the [Actor model](https://en.wikipedia.org/wiki/Actor_model#Fundamental_concepts):
 

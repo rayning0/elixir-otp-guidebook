@@ -6,7 +6,7 @@ I urge you buy [liveBook version](https://livebook.manning.com/book/the-little-e
 - [Chp 1](ch1/what_is_elixir.md): Elixir vs. Erlang. What's Elixir good/bad for? Preview of OTP behaviors.
 - [Chp 2.2](ch2/2.2_first-steps.md): First Steps
 - [Chp 2.3-2.4](ch2/2.3-2.4_data-types_guards.md): Data Types, Guards
-- [Chp 2.5](ch2/2.5_pattern-matching.md): Pattern Matching
+- [Chp 2.5](ch2/2.5_pattern-matching.md): Pattern Matching: Destructuring. Parsing audio MP3 file's ID3 tag.
 
 ## Elixir School
 - [Computer Memory](elixir_school/memory-stack_vs_heap.md): Stack vs. Heap
