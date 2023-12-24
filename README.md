@@ -7,6 +7,7 @@ I urge you buy [liveBook version](https://livebook.manning.com/book/the-little-e
 - [Chp 2.2](ch2/2.2_first-steps.md): First Steps
 - [Chp 2.3-2.4](ch2/2.3-2.4_data-types_guards.md): Data Types, Guards
 - [Chp 2.5](ch2/2.5_pattern-matching.md): Pattern Matching: Destructuring. Parsing audio MP3 file's ID3 tag.
+- [Chp 2.6](ch2/2.6_lists.md): Lists: Lists vs. Arrays. Flattening a list. Ordering of function clauses.
 
 ## Elixir School
 - [Computer Memory](elixir_school/memory-stack_vs_heap.md): Stack vs. Heap
