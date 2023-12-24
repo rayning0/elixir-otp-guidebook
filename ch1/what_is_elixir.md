@@ -33,12 +33,10 @@ Q: How is Elixir different from Erlang?
 ![ExUnit error messages](img/ExUnit-error_messages.png)
 
 ```
-require IEx
-
 defmodule Greeter do
   def ohai(who, adjective) do
     greeting = "Ohai!, #{adjective} #{who}"
-    IEx.pry
+    require IEx; IEx.pry
   end
 
 end
