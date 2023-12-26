@@ -36,7 +36,7 @@ defmodule Ex2 do
       acc -> x + acc
     end
 
-    # This returns total = 0
+    # This way fails, returning total = 0
 
     # total = 0
     # for x <- list, do: total = total + x
