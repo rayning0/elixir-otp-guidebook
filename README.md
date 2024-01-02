@@ -16,7 +16,8 @@ I urge you buy the [liveBook version](https://livebook.manning.com/book/the-litt
 - [Chp 2.9](ch2/2.9_exercises.md): Exercises. [Parser for IPv4 packet headers](ch2/2.9_exercises.md#parser).
 
 **Processes**
-- [Chp. 3.1-3.2](ch3/3.1-3.2_processes_weather-app_run-tests.md): Processes. Actor concurrency model. Building a weather app, naive version. [Running software tests](ch3/3.1-3.2_processes_weather-app_run-tests.md#tests).
+- [Chp 3.1-3.2](ch3/3.1-3.2_processes_weather-app_run-tests.md): Processes. Actor concurrency model. Building weather app. [Running software tests](ch3/3.1-3.2_processes_weather-app_run-tests.md#tests).
+- [Chp 3.3](ch3/3.3_weather-worker.md): Weather app worker: gets temperature of given location  and parses its results.
 
 ## Elixir School
 - [Computer Memory](elixir_school/memory-stack_vs_heap.md): Stack vs. Heap

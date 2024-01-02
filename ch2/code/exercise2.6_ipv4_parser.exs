@@ -1,4 +1,5 @@
 # Parser for IPv4 packet header: https://en.wikipedia.org/wiki/Internet_Protocol_version_4#Packet_structure
+# Full explanation: https://github.com/rayning0/elixir-otp-guidebook/blob/master/ch2/2.9_exercises.md#parser
 defmodule IP do
   def parse(filename) do
     case File.read(filename) do
