@@ -1,5 +1,7 @@
 ## Notes on [The Little Elixir & OTP Guidebook](https://www.manning.com/books/the-little-elixir-and-otp-guidebook) (by Benjamin Tan Wei Hao) and [Elixir School](https://elixirschool.com/).
 
+Code for book's [**Metex weather app**](https://github.com/rayning0/metex).
+
 I urge you buy the [liveBook version](https://livebook.manning.com/book/the-little-elixir-and-otp-guidebook), where you can hear and see book read aloud.
 
 ## The Little Elixir & OTP Guidebook
@@ -11,7 +13,10 @@ I urge you buy the [liveBook version](https://livebook.manning.com/book/the-litt
 - [Chp 2.5](ch2/2.5_pattern-matching.md): Pattern Matching: Destructuring. Parse audio MP3 file's ID3 tag.
 - [Chp 2.6](ch2/2.6_lists.md): Lists: Lists vs. Arrays. Flatten a list. Ordering of function clauses.
 - [Chp 2.7-2.8](ch2/2.7-2.8_pipe-operator_erlang.md): Pipe Operator. Call Erlang from Elixir. Erlang Observer.
-- [Chp 2.9](ch2/2.9_exercises.md): Exercises. Parser for an IPv4 packet header.
+- [Chp 2.9](ch2/2.9_exercises.md): Exercises. [Parser for IPv4 packet headers](ch2/2.9_exercises.md#parser).
+
+**Processes**
+- [Chp. 3.1-3.2](ch3/3.1-3.2_processes_weather-app_run-tests.md): Processes. Actor concurrency model. Building a weather app, naive version. [Running software tests](ch3/3.1-3.2_processes_weather-app_run-tests.md#tests).
 
 ## Elixir School
 - [Computer Memory](elixir_school/memory-stack_vs_heap.md): Stack vs. Heap

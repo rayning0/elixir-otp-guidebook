@@ -1,5 +1,7 @@
 **Definition**
 
+Jump to [Processes vs. Threads](#processes)
+
 `Concurrency`: Concurrency is 2 lines of customers ordering from a single cashier (lines take turns ordering), or 1 waiter serving many customers. `Parallelism` is 2 lines of customers ordering from 2 cashiers (each line gets its own cashier).
 
 Difference between concurrency + parallelism:
@@ -38,7 +40,7 @@ Difference between concurrency + parallelism:
 
 ![Message Passing](img/message-passing.png)
 
-**2 Types of Concurrent Modules**
+**2 Types of Concurrent Modules**<a id="processes"></a>
 
 `Process`: an independent running program with its own memory space and resources. **It's isolated from other processes** on same machine. Has its own private section of the machine’s memory. Takes more time to terminate. May have these 6 states: **"New, ready, running, waiting, terminated, and suspended."** The operating system’s scheduler determines the order and duration of process execution, giving illusion of parallelism to users.
 
