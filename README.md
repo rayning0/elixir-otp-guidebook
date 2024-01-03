@@ -17,7 +17,8 @@ I urge you buy the [liveBook version](https://livebook.manning.com/book/the-litt
 
 **Processes**
 - [Chp 3.1-3.2](ch3/3.1-3.2_processes_weather-app_run-tests.md): Processes. Actor concurrency model. Building weather app. [Running software tests](ch3/3.1-3.2_processes_weather-app_run-tests.md#tests).
-- [Chp 3.3](ch3/3.3_weather-worker.md): Weather app worker: gets temperature of given location  and parses its results.
+- [Chp 3.3](ch3/3.3_weather-worker.md): Weather app worker: given a location, returns its temperature.
+- [Chp 3.4](ch3/3.4_processes_for_concurrency.md): Creating processes for concurrency. Receiving/sending messages.
 
 ## Elixir School
 - [Computer Memory](elixir_school/memory-stack_vs_heap.md): Stack vs. Heap
