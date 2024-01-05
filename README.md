@@ -20,6 +20,7 @@ I urge you buy the [liveBook version](https://livebook.manning.com/book/the-litt
 - [Chp 3.3](ch3/3.3_weather-worker.md): Weather app worker: given a location, returns its temperature.
 - [Chp 3.4](ch3/3.4_processes_for_concurrency.md): Creating processes for concurrency. Receiving/sending messages.
 - [Chp 3.5](ch3/3.5_collecting_results_with_another_actor.md): Collecting/Manipulating temperature results with another actor (a Coordinator).
+- [Chp 3.6](ch3/3.6_exercises.md): Exercises. Program that spawns 2 processes that send each other `ping` and `pong` messages.
 
 ## Elixir School
 - [Computer Memory](elixir_school/memory-stack_vs_heap.md): Stack vs. Heap
